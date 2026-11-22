@@ -9,6 +9,7 @@ on:
       - 'protobuf/**'
       - 'tools/**'
       - '.github/workflows/build_tools.yml'
+  workflow_dispatch:
 
 
 name: Build Tools
