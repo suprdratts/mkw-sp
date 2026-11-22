@@ -15,7 +15,8 @@ on:
       - '.github/workflows/run_tidy.yml'
       - '.github/workflows/clean_bmg.yml'
       - '.github/workflows/build_tools.yml'
-
+  workflow_dispatch:
+  
 jobs:
   build:
     name: Build
